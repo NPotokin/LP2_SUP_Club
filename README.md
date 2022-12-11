@@ -8,6 +8,7 @@ There will be several goals for the project
 3. Try gradients
 4. try carosel
 5. Practice workflow 
+6. Practice RWD for 3 sizes (sm, md, lg)
 
 Tailwind CSS will be used via Play CDN link in HTML head.
 
