@@ -10,6 +10,6 @@ There will be several goals for the project
 5. Practice workflow 
 6. Practice RWD for 3 sizes (sm, md, lg)
 
-Tailwind CSS will be used via Play CDN link in HTML head.
+Tailwind CSS will be used.
 
 
