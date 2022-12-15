@@ -42,7 +42,7 @@
             <div class="block m-auto p-3 rounded-full text-slate-400 text-xl font-bold ring-2
             bg-gradient-to-r from-teal-700 to-violet-700
             hover:brightness-150">
-                <a href="">BECOME A HUNTER</a>
+                <a href="#form">BECOME A HUNTER</a>
             </div>
         </div>
         <!--Image-->
@@ -69,7 +69,7 @@
             <div class="block m-auto p-3 rounded-full text-slate-400 text-xl font-bold ring-2
             bg-gradient-to-r from-teal-700 to-violet-700
             hover:brightness-150">
-                <a href="">BECOME A HUNTER</a>
+                <a href="#form">BECOME A HUNTER</a>
             </div>
         </div>
     </section>
@@ -155,18 +155,35 @@
         <!--Background image container-->
         <div class="max-w-full container bg-cover bg-fixed mx-auto py-60 justify-between" style="background-image: url(/images/aur5.png)">
             <!--Header-->
-            <h1 class="text-7xl font-extrabold mx-auto text-center
+            <h1 class="text-7xl font-extrabold mx-auto text-center py-12
             bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-violet-400">DARE TO JOIN?</h1>
+            <div class="w-80 block mx-auto p-3 rounded-full text-slate-400 text-xl font-bold ring-2
+            bg-gradient-to-r from-teal-700 to-violet-700
+            hover:brightness-150">
+                <a class="mx-auto px-12" href="#form">BECOME A HUNTER</a>
+            </div>
         </div> 
         <!--Form-->
-        <div class="container flex flex-col max-w-6xl mx-auto p-6">
-            <h1 class="text-5xl font-extrabold mx-auto py-3
+        <div id="form" class="container flex flex-col max-w-6xl mx-auto p-6">
+            <h1 class="text-5xl font-extrabold mx-auto py-6
             bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-violet-400">Registration</h1>
-            <div class="container flex flex-row justify-between">
-                <label class="text-xl font-bold" for="">Name:</label>
-                <input type="text">
-
+            <div class="container flex flex-row justify-center p-3">
+                <label for="name"
+                class="text-2xl font-bold mx-6  
+                bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-violet-400" >Name:</label>
+                <input type="text" id="name" name="name" required  
+                class="mx-3 w-96 rounded-full text-2xl text-center
+                bg-gradient-to-r from-teal-400 to-violet-400 focus:brightness-150">
             </div>
+            <div class="container flex flex-row justify-center p-3">
+                <label for="email"
+                class="text-2xl font-bold mx-6  
+                bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-violet-400" >Email:</label>
+                <input type="email" id="eamil" name="email" required  
+                class="mx-3 w-96 rounded-full text-2xl text-center
+                bg-gradient-to-r from-teal-400 to-violet-400 focus:brightness-150">
+            </div>
+            
         </div>
     </section>  
     
