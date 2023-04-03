@@ -585,24 +585,16 @@ video {
   margin-bottom: 2.25rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mb-9 {
-  margin-bottom: 2.25rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
 }
 
 .block {
@@ -703,72 +695,8 @@ video {
   border-radius: 0.75rem;
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[url\] {
-  background-color: url;
-}
-
-.bg-\[url9\] {
-  background-color: url9;
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\)\] {
-  background-image: url();
-}
-
-.bg-\[url\(\"\"\)\] {
-  background-image: url("");
-}
-
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
-
-.bg-\[url\(\'\/images\/\'\)\] {
-  background-image: url('/images/');
-}
-
-.bg-\[url\(\'\/images\/bgA\'\)\] {
-  background-image: url('/images/bgA');
-}
-
-.bg-\[url\(\'\/images\/bgAur\'\)\] {
-  background-image: url('/images/bgAur');
-}
-
-.bg-\[url\(\'\/images\/bgAur2\'\)\] {
-  background-image: url('/images/bgAur2');
-}
-
-.bg-\[url\(\'\/images\/bgAur2\.png\'\)\] {
-  background-image: url('/images/bgAur2.png');
-}
-
-.bg-\[url\(\'images\/bgAur2\.png\'\)\] {
-  background-image: url('images/bgAur2.png');
-}
-
-.bg-\[url\(\'\.\.\/images\/bgAur2\.png\'\)\] {
-  background-image: url('../images/bgAur2.png');
-}
-
-.bg-\[url\(images\/bgAur2\.png\)\] {
-  background-image: url(images/bgAur2.png);
-}
-
-.bg-\[url\(\/images\/bgAur2\.png\)\] {
-  background-image: url(/images/bgAur2.png);
-}
-
-.bg-\[url\(\/images\/bgAur1\.png\)\] {
-  background-image: url(/images/bgAur1.png);
 }
 
 .from-teal-900 {
